@@ -8,6 +8,26 @@ section{
     background-color: #5722CD;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
+
+
 
 
 
