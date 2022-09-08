@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-section{
+section {
     background-color: #5722CD;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
@@ -23,15 +23,19 @@ ul{
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 300px;
-
 }
 
+.block-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-
-
-
-
+.divider-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*
 All colors used throughout the text
 Paars #5722CD;
@@ -42,7 +46,6 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 */
-
 
 
 /*////////////////////////
