@@ -1,12 +1,16 @@
+/*Gobal settings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Everything under Section one - navbar, headings, button and divider line. */
+
 .section-one {
-    background: rgb(103,86,190);
-    background: linear-gradient(90deg, rgba(103,86,190,1) 0%, rgba(87,34,205,1) 59%, rgba(72,47,175,1) 100%);
+    background: rgb(103, 86, 190);
+    background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%, rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     color: white;
 }
 
@@ -63,10 +67,9 @@ button {
     color: white;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 2px 2px 10px darkslategrey;
+    box-shadow: 2px 2px 10px darkslategrey; /* recheck button shadow after changing gradient of section 1*/
 }
 
-/* recheck button shadow after changing gradient of section 1*/
 
 .divider-line {
     display: flex;
