@@ -1,4 +1,7 @@
-/*Gobal settings */
+:root {
+    --main-heading-font-family: "Merriweather", sans-serf;
+    --main-text-font-family: "Roboto", sans-serif;
+}
 
 * {
     margin: 0;
@@ -10,8 +13,10 @@
 
 .section-one {
     background: rgb(103, 86, 190);
-    background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%, rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
+    background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
+    rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     color: white;
+    flex-basis: 300px;
 }
 
 .navbar {
@@ -19,7 +24,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-text-font-family);
     padding-right: 30px;
     padding-top: 25px;
     flex-grow: 1;
@@ -38,15 +43,15 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 300px;
+    padding: 150px;
     text-align: center;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 60px;
+    font-family: "Merriweather", sans-serif;
+    font-size: 50px;
     font-weight: lighter;
     flex-wrap: wrap;
     padding-bottom: 40px;
@@ -67,15 +72,45 @@ button {
     color: white;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 2px 2px 10px darkslategrey; /* recheck button shadow after changing gradient of section 1*/
+    box-shadow: 2px 2px 10px #2f4f4f; /* recheck button shadow after changing gradient of section 1*/
 }
-
 
 .divider-line {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+}
+
+/*Styling Section 2 of webpage*/
+
+.section-two {
+    display: flex;
+    flex-basis: 576px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #5722CD;
+    padding-top: 100px;
+    font-family: var(--main-heading-font-family);
+    font-size: 30px;
+}
+
+h2{
+    padding: 50px;
+}
+
+.contact-text-link {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+}
+
+a{
+    font-size: 18px
 }
 
 /*
