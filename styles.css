@@ -112,15 +112,16 @@ h2{
     font-size: 1px;
     color: #000000;
     padding-top: 150px;
+    padding-bottom: 50px;
 
 }
 
 p{
-    font-size: 20px;
-    word-spacing: normal;
+    font-size: 15px;
+
 }
 a{
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #5722CD;
 }
