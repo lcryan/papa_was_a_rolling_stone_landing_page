@@ -16,7 +16,7 @@
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     color: white;
-    flex-basis: 300px;
+    flex-basis: 576px;
 }
 
 .navbar {
@@ -50,7 +50,7 @@ ul {
 h1 {
     display: flex;
     justify-content: center;
-    font-family: "Merriweather", sans-serif;
+    font-family: var(--main-heading-font-family);
     font-size: 50px;
     font-weight: lighter;
     flex-wrap: wrap;
@@ -58,14 +58,14 @@ h1 {
 }
 
 p {
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-text-font-family);
     font-size: 20px;
     font-weight: lighter;
     padding-bottom: 30px;
 }
 
 button {
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-text-font-family);
     text-transform: uppercase;
     background-color: #ED4385;
     border: transparent;
@@ -93,24 +93,36 @@ button {
     text-align: center;
     background-color: #FFFFFF;
     color: #5722CD;
-    padding-top: 100px;
     font-family: var(--main-heading-font-family);
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 h2{
-    padding: 50px;
+    padding: 20px 100px 5px 100px;
 }
 
 .contact-text-link {
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-family: Merriweather, sans-serif;
+    font-family: var(--main-text-font-family);
+    font-size: 1px;
+    color: #000000;
+    padding-top: 100px;
+
 }
 
+p{
+    font-size: 20px;
+    word-spacing: normal;
+}
 a{
-    font-size: 18px
+    font-size: 20px;
+    text-decoration: none;
+    color: #5722CD;
 }
 
 /*
