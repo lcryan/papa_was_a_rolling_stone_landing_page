@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
+    <title>Rolling Stone Website</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,90 +13,84 @@
             font-family: 'Merriweather Sans', 'Roboto', sans-serif;
         }
     </style>
-    <title>Rolling Stone Website</title>
 </head>
 <body>
-<!--DONT FORGET TO ADD NAV within THE HEADER AND NOT LIKE BELOW and MAIN!-->
-<section class="section-one">
-    <div class="navbar">
+<header class="header">
+    <nav id="nav-bar">
         <ul>
             <li>Class Studies</li> <!--dont forget the jump links to all list items-->
             <li>Services</li> <!--dont forget the jump links to all list items-->
             <li>Contact Us</li> <!--dont forget the jump links to all list items-->
         </ul>
-    </div>
-    <div class="block-two">
+    </nav>
+    <div class="header-text">
         <h1>Your website is an investment in the success of your business.</h1>
         <p>We are here to help you succeed.</p>
         <button type="button">Let's work together</button>
     </div>
-
-    <div class="divider-line">
+    <div class="squiggly-line-image">
         <img src="/assets/squiggle_line_stripe.svg" alt="white wavy designed lined">
     </div>
-</section>
+</header>
 
-<section class="section-two">
+<main>
+    <section class="section-introduction">
 
-    <h2>Rekupe is a digital agency in Los Angeles.</h2>
-    <h2>We use strategic UX, SEO optimization and beautiful visual designs to help your business grow.</h2>
-    <h2>We see every project as a fresh opportunity, pushing ourselves to create new digital experiences.</h2>
+        <h2>Rekupe is a digital agency in Los Angeles.</h2>
+        <h2>We use strategic UX, SEO optimization and beautiful visual designs to help your business grow.</h2>
+        <h2>We see every project as a fresh opportunity, pushing ourselves to create new digital experiences.</h2>
+        <div class="introduction-link">
+            <p>Have a question?&nbsp</p> <a href="." target="_blank">Click here&nbsp</a>
+            <p> to contact us. </p>
+        </div>
+    </section>
 
-
-    <div class="contact-text-link">
-        <p>Have a question?</p> <a href="." target="_blank">Click here</a>
-        <p> to contact us. </p>
-    </div>
-</section>
-
-<section class="section-three"> <!--from here you have to add all articles in ONE sections!!-->
-    <div class="first-article">
-        <h2>Rolling Stone</h2>
-
-        <img src="/assets/squiggle_line.svg" class="work-desktop-one" alt="small purple squiggle line underlining h2">
-        <p>You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global icon.</p>
-
-        <p>View Project</p>
-        <section class="image-one">
+    <section class="content-container">
+        <article class="project-one"> <!--from here you have to add all articles in ONE sections!!-->
+            <div class="first-article">
+                <h2>Rolling Stone</h2>
+                <img src="/assets/squiggle_line.svg" class="work-desktop-one"
+                     alt="small purple squiggle line underlining h2">
+                <p>You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global icon.</p>
+                <p>View Project</p>
+                <div class="image-one">
         <span class="image-wrapper">
         <img src="/assets/work-image-01.jpeg"
              alt="desktop with a macbook, plant, photo and Rolling Stone Magazine next to it">
         </span>
-        </section>
-        <div class="second-article">
-            <h2>Variety</h2>
+                    <article class="project-two">
+                        <div class="second-article">
+                            <h2>Variety</h2>
 
-            <img src="/assets/squiggle_line.svg" class="work-desktop-one"
-                 alt="small purple squiggle line underlining h2">
+                            <img src="/assets/squiggle_line.svg" class="work-desktop-one"
+                                 alt="small purple squiggle line underlining h2">
 
-            <p>Variety is an industry leader for breaking entertainment news, reviews and box office results with
-                archive of content dating back to 1905.</p>
-            <p>View Project</p>
-            <span class="image-wrapper">
+                            <p>Variety is an industry leader for breaking entertainment news, reviews and box office results with
+                                archive of content dating back to 1905.</p>
+                            <p>View Project</p>
+                        </div>
+                        <span class="image-wrapper">
             <img src="/assets/work-image-02.jpeg" class="work-desktop-two" alt="silver macbook with Variety Magazine on
             the left side">
             </span>
 
-            <div class="third-article"> <!--this is the last article that has to be added to the ONE section that combines ALL articles-->
-                <h2>Worth</h2>
-                <img src="/assets/squiggle_line.svg" class="work-desktop-one"
-                     alt="small purple squiggle line underlining h2">
-                <p>A global media platform connecting a community that embraces worth beyond wealth.</p>
-                <p>View Project</p>
-                <span class="image-wrapper">
+                        <article class="project-3">
+                            <!--this is the last article that has to be added to the ONE section that combines ALL articles-->
+                            <h2>Worth</h2>
+                            <img src="/assets/squiggle_line.svg" class="work-desktop-one"
+                                 alt="small purple squiggle line underlining h2">
+                            <p>A global media platform connecting a community that embraces worth beyond wealth.</p>
+                            <p>View Project</p>
+                            <span class="image-wrapper">
                 <img src="/assets/work-image-03.jpeg" class="work-desktop-three" alt="Ipad Variety Cover
                  with Jeff Bezos as Spotlight topic">
                 </span>
+                        </article>
+                        </article>
+                    </article>
+                </div>
             </div>
-
-
-        </div>
-
-
-    </div>
-
-
-</section>
-
+    </section>
+</main>
 </body>
 </html>

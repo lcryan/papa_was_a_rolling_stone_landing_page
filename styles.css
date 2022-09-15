@@ -1,27 +1,33 @@
-:root {
-    --main-heading-font-family: "Merriweather", sans-serf;
-    --main-text-font-family: "Roboto", sans-serif;
-    --standard-font-text-color: #0C0C0C;
-
+/* ------------------------------- 1. Global Styles -------------------------------- */
+body{
+    flex-basis: 1200px;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Everything under Section one - navbar, headings, button and divider line. */
+:root {
+    --main-heading-font-family: "Merriweather", sans-serf;
+    --main-text-font-family: "Roboto", sans-serif;
+    --standard-font-text-color: #0C0C0C;
+}
 
-.section-one {
+/* ------------------------------- 2.START HEADER -------------------------------- */
+
+.header {
     background: rgb(103, 86, 190);
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     color: white;
-    flex-basis: 576px;
+    margin: 10px;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
-.navbar {
+#nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -30,6 +36,7 @@
     padding-right: 30px;
     padding-top: 25px;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 ul {
@@ -41,12 +48,13 @@ ul {
 }
 
 
-.block-two {
+.header-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px;
+    padding: 200px;
     text-align: center;
+
 }
 
 h1 {
@@ -55,7 +63,6 @@ h1 {
     font-family: var(--main-heading-font-family);
     font-size: 50px;
     font-weight: lighter;
-    flex-wrap: wrap;
     padding-bottom: 40px;
 }
 
@@ -77,18 +84,23 @@ button {
     box-shadow: 2px 2px 10px #2f4f4f;
 }
 
-.divider-line {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
+.squiggly-line-image {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 40px);
 }
 
-/*Styling Section 2 of webpage*/
+/* ------------------------------- 2. END HEADER -------------------------------- */
 
-.section-two {
+
+/* ------------------------------- 3. START MAIN -------------------------------- */
+
+main{
+    margin: 10px;
+}
+
+.section-introduction {
     display: flex;
-    flex-basis: 576px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -106,7 +118,7 @@ h2 {
     padding: 20px 100px 20px 100px;
 }
 
-.contact-text-link {
+.introduction-link {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -120,7 +132,6 @@ h2 {
 
 p {
     font-size: 15px;
-
 }
 
 a {
@@ -131,15 +142,9 @@ a {
 
 /*Styling section 3 of webpage*/
 
-.section-three{
+.content-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
-}
-
-.image-one{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
 
