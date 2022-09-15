@@ -1,9 +1,4 @@
-:root {
-    --main-heading-font-family: "Merriweather", sans-serf;
-    --main-text-font-family: "Roboto", sans-serif;
-    --standard-font-text-color: #0C0C0C;
-
-}
+/* ------------------------------- 1. Global Styles -------------------------------- */
 
 * {
     margin: 0;
@@ -11,17 +6,27 @@
     box-sizing: border-box;
 }
 
-/*Everything under Section one - navbar, headings, button and divider line. */
+:root {
+    --main-heading-font-family: "Merriweather", sans-serf;
+    --main-text-font-family: "Roboto", sans-serif;
+    --standard-font-text-color: #0C0C0C;
+}
 
-.section-one {
+/* ------------------------------- 2.HEADER -------------------------------- */
+
+.header {
     background: rgb(103, 86, 190);
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     color: white;
-    flex-basis: 576px;
+    flex-basis: 1200px;
+    margin: 10px;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
-.navbar {
+#nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -30,6 +35,7 @@
     padding-right: 30px;
     padding-top: 25px;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 ul {
@@ -41,12 +47,13 @@ ul {
 }
 
 
-.block-two {
+.introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px;
+    padding: 200px;
     text-align: center;
+
 }
 
 h1 {
@@ -55,7 +62,6 @@ h1 {
     font-family: var(--main-heading-font-family);
     font-size: 50px;
     font-weight: lighter;
-    flex-wrap: wrap;
     padding-bottom: 40px;
 }
 
@@ -77,14 +83,13 @@ button {
     box-shadow: 2px 2px 10px #2f4f4f;
 }
 
-.divider-line {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
+.squiggly-line-image {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 40px);
 }
 
-/*Styling Section 2 of webpage*/
+/*ZWEITER TEIL*/
 
 .section-two {
     display: flex;
