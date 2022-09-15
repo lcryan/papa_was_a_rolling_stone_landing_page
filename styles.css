@@ -132,7 +132,6 @@ h2 {
 
 p {
     font-size: 15px;
-
 }
 
 a {
@@ -143,7 +142,7 @@ a {
 
 /*Styling section 3 of webpage*/
 
-.section-three {
+.projects {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
 }
