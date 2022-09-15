@@ -142,16 +142,12 @@ a {
 
 /*Styling section 3 of webpage*/
 
-.projects {
+.content-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
 }
 
-.image-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
+
 
 
 /*
