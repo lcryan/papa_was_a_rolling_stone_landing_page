@@ -141,11 +141,12 @@ a {
     color: #5722CD;
 }
 
-/*Styling section 3 of webpage*/
+/*Styling SECTION PROJECTS*/
 
 .content-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
+
 }
 
 h3{
@@ -156,6 +157,7 @@ h3{
 h5 {
     text-transform: uppercase;
     color: #5722CD;
+    font-weight: bold;
 
 }
 
@@ -167,7 +169,9 @@ p {
 .project-one, .project-three{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
+    flex-basis: 360px;
+    position: relative;
 }
 
 
@@ -179,15 +183,17 @@ p {
     flex-basis: 360px;
     padding-right: 100px;
     padding-left: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .squiggle-line-purple{
     padding-bottom: 20px;
 }
 
-.image-one{
+.image-one, .image-three{
     width: 100%;
-    padding: revert;
+
 }
 .image-wrapper {
     flex-basis: 800px;
