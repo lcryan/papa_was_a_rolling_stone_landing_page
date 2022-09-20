@@ -166,15 +166,13 @@ p {
 
 }
 
-.project-one, .project-three {
+.project-one  {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-basis: 360px;
 
 }
-
-
 .first-article {
     display: flex;
     flex-direction: column;
@@ -192,14 +190,6 @@ p {
 }
 
 .image-one {
-    width: 100%;
-}
-
-.image-two {
-    width: 100%
-}
-
-.image-three {
     width: 100%;
 }
 
