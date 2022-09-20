@@ -147,9 +147,15 @@ a {
     color: var(--standard-font-text-color);
 }
 
+h2{
+    font-family: var(--main-heading-font-family);
+    padding-bottom: 10px;
+}
 
-
-
+p{
+    font-family: var(--main-text-font-family);
+    padding-top: 20px;
+}
 /*
 All colors used throughout the text
 Paars #5722CD;
