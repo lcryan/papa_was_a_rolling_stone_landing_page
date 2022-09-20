@@ -169,9 +169,9 @@ p {
 .project-one, .project-three {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     flex-basis: 360px;
-    position: relative;
+
 }
 
 
