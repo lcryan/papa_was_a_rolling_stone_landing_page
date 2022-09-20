@@ -148,31 +148,50 @@ a {
     color: var(--standard-font-text-color);
 }
 
-h2 {
+h3{
     font-family: var(--main-heading-font-family);
-    text-align: left;
+    padding-bottom: 20px;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: #5722CD;
+
 }
 
 p {
     font-family: var(--main-text-font-family);
-    text-align: left;
+
 }
 
-.project-one{
+.project-one, .project-three{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+
+
 
 .first-article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: left;
+    align-items: flex-start;
+    flex-basis: 360px;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.squiggle-line-purple{
+    padding-bottom: 20px;
 }
 
 
-
+.image-wrapper {
+    flex-basis: 800px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
 
 
 
