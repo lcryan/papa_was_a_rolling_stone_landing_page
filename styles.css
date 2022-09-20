@@ -1,7 +1,8 @@
 /* ------------------------------- 1. Global Styles -------------------------------- */
-body{
+body {
     flex-basis: 1200px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -95,7 +96,7 @@ button {
 
 /* ------------------------------- 3. START MAIN -------------------------------- */
 
-main{
+main {
     margin: 10px;
 }
 
@@ -145,6 +146,51 @@ a {
 .content-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
+}
+
+h3{
+    font-family: var(--main-heading-font-family);
+    padding-bottom: 20px;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: #5722CD;
+
+}
+
+p {
+    font-family: var(--main-text-font-family);
+
+}
+
+.project-one, .project-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.first-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 360px;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.squiggle-line-purple{
+    padding-bottom: 20px;
+}
+
+
+.image-wrapper {
+    flex-basis: 800px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 
