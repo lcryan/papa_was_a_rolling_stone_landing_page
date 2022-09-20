@@ -171,7 +171,6 @@ p {
 }
 
 
-
 .first-article{
     display: flex;
     flex-direction: column;
@@ -186,7 +185,10 @@ p {
     padding-bottom: 20px;
 }
 
-
+.image-one{
+    width: 100%;
+    padding: revert;
+}
 .image-wrapper {
     flex-basis: 800px;
     flex-grow: 0;
