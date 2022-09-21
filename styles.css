@@ -151,7 +151,7 @@ a {
 
 .image-one, .image-two, .image-three {
     width: 100%;
-    box-shadow: 0 9px 21px 1px rgba(204,204,204,0.91);
+    box-shadow: 0px 9px 21px 1px rgba(204,204,204,0.91);
 }
 
 .image-wrapper {
@@ -161,7 +161,7 @@ a {
 }
 /*GLOBALS WITHIN PROJECTS SECTION*/
 
-.content-container {
+.projects-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
     display: flex;
@@ -246,7 +246,7 @@ p {
     align-items: center;
     flex-basis: 400px;
     margin-right: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .third-article {
