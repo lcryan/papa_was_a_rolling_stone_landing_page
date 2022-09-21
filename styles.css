@@ -166,7 +166,7 @@ p {
 
 }
 
-.project-one  {
+.project-one {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -176,6 +176,7 @@ p {
     margin-bottom: 80px;
 
 }
+
 .first-article {
     display: flex;
     flex-direction: column;
@@ -192,7 +193,7 @@ p {
     padding-bottom: 20px;
 }
 
-.image-one{
+.image-one {
     width: 100%;
 }
 
@@ -202,7 +203,7 @@ p {
     flex-shrink: 1;
 }
 
-.project-two  {
+.project-two {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -224,7 +225,7 @@ p {
     flex-shrink: 1;
 }
 
-.image-two{
+.image-two {
     width: 100%;
 }
 
@@ -247,7 +248,7 @@ p {
     flex-shrink: 1;
 }
 
-.image-three{
+.image-three {
     width: 100%;
 }
 
