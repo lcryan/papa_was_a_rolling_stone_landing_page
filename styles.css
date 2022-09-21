@@ -154,7 +154,7 @@ a {
 }
 
 .image-wrapper {
-    flex-basis: 400px;
+    flex-basis: 800px;
     flex-grow: 0;
     flex-shrink: 1;
 }
@@ -207,8 +207,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     flex-basis: 400px;
-    padding-right: 100px;
-    padding-left: 20px;
+    padding-left: 30px;
     flex-grow: 0;
     flex-shrink: 1;
 }
@@ -229,7 +228,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     flex-basis: 400px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 100px;
     flex-grow: 0;
     flex-shrink: 1;
@@ -248,13 +247,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 360px;
-    padding-right: 100px;
-    padding-left: 20px;
+    flex-basis: 400px;
+    padding-left: 30px;
     flex-grow: 0;
     flex-shrink: 1;
 }
-
 
 
 /*
