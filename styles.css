@@ -232,10 +232,6 @@ p {
     flex-shrink: 1;
 }
 
-.image-two {
-    width: 100%;
-}
-
 .project-three {
     display: flex;
     flex-direction: row;
