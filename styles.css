@@ -89,6 +89,7 @@ button {
     position: absolute;
     bottom: 0;
     left: calc(50% - 40px);
+    /*size 1 px biggr */
 }
 
 /* ------------------------------- 2. END HEADER -------------------------------- */
@@ -178,29 +179,28 @@ p {
     align-items: center;
     flex-basis: 400px;
     flex-grow: 0;
-    flex-shrink: 0;
-    margin-bottom: 80px;
-    padding: 50px 0 50px 50px;
-
+    flex-shrink: 1;
 }
+
 
 .first-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 360px;
+    flex-basis: 400px;
     padding-right: 100px;
     padding-left: 20px;
     flex-grow: 0;
-    flex-shrink:0;
+    flex-shrink:1;
 }
 
 .squiggle-line-purple {
     padding-bottom: 20px;
 }
 
-.image-one {
+.image-one, .image-two, .image-three {
+    width: 100%;
 
 }
 
@@ -213,11 +213,11 @@ p {
 .project-two {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
     flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 0;
-    margin-bottom: 80px;
 }
 
 .second-article {
@@ -225,7 +225,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 360px;
+    flex-basis: 400px;
     padding-right: 20px;
     padding-left: 100px;
     flex-grow: 0;
@@ -239,8 +239,9 @@ p {
 .project-three {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    flex-basis: 360px;
+    flex-basis: 400px;
 }
 
 .third-article {
@@ -254,6 +255,19 @@ p {
     flex-grow: 0;
     flex-shrink: 1;
 }
+
+/*.first-article {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*    flex-basis: 400px;*/
+/*    padding-right: 100px;*/
+/*    padding-left: 20px;*/
+/*    flex-grow: 0;*/
+/*    flex-shrink:0;*/
+/*}*/
+
 
 .image-three {
     width: 100%;
