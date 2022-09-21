@@ -146,9 +146,14 @@ a {
 .content-container {
     background-color: #F3F6F9;
     color: var(--standard-font-text-color);
-
+    display: flex;
+    justify-content: center;
 }
-
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h3 {
     font-family: var(--main-heading-font-family);
     padding-bottom: 20px;
@@ -169,11 +174,13 @@ p {
 .project-one {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 0;
     margin-bottom: 80px;
+    padding: 50px 0 50px 50px;
 
 }
 
@@ -186,7 +193,7 @@ p {
     padding-right: 100px;
     padding-left: 20px;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink:0;
 }
 
 .squiggle-line-purple {
@@ -194,11 +201,11 @@ p {
 }
 
 .image-one {
-    width: 100%;
+
 }
 
 .image-wrapper {
-    flex-basis: 800px;
+    flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 1;
 }
