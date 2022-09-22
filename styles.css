@@ -269,48 +269,53 @@ h4 {
     font-size: 20px;
 }
 
+
 .inner-container-services-one {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
+    /*flex-wrap: wrap;*/
+    /*flex: 0 0 100%;*/
+    margin-top: 50px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
 
 .inner-container-services-two {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
+    /*flex-wrap: wrap;*/
+    /*flex: 0 0 100%;*/
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block {
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 30%;
+    margin: 10px;
 }
 
 
 .logo-design-block, .seo-block, .copy-writing-block {
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 30%;
+    margin: 10px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block, .logo-design-block, .seo-block, .copy-writing-block {
     border: solid 1px #5722CD;
     color: #9E9E9C;
     padding: 20px;
-
-
 }
 
 .icon-webdesign, .icon-webdev, .icon-seo, .icon-copywriting, .icon-graphic-design, .icon-uxdesign {
     height: 45px;
 }
 
-/*.emulated-flex-gap {*/
-/*    display: inline-flex;*/
-/*    flex-wrap: wrap;*/
-/*    margin: -12px 0 0 -12px;*/
-/*    width: calc(100% + 12px);*/
-/*}*/
+
 /*
 All colors used throughout the text
 Paars #5722CD;
