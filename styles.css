@@ -269,13 +269,12 @@ h4 {
     font-size: 20px;
 }
 
-
 .inner-container-services-one {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 100%;
-
 }
+
 
 .inner-container-services-two {
     display: flex;
@@ -285,15 +284,13 @@ h4 {
 
 .web-design-block, .web-development-block, .user-experience-block {
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-
+    max-width: none;
 }
 
 
 .logo-design-block, .seo-block, .copy-writing-block {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-
 }
 
 .web-design-block, .web-development-block, .user-experience-block, .logo-design-block, .seo-block, .copy-writing-block {
@@ -307,7 +304,12 @@ h4 {
     height: 45px;
 }
 
-
+/*.emulated-flex-gap {*/
+/*    display: inline-flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin: -12px 0 0 -12px;*/
+/*    width: calc(100% + 12px);*/
+/*}*/
 /*
 All colors used throughout the text
 Paars #5722CD;
