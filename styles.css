@@ -275,14 +275,12 @@ h4 {
     flex-wrap: wrap;
     flex: 0 0 100%;
 
-
 }
 
 .inner-container-services-two {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 100%;
-
 }
 
 .web-design-block, .web-development-block, .user-experience-block {
@@ -309,6 +307,7 @@ h4 {
 .icon-webdesign, .icon-webdev, .icon-seo, .icon-copywriting, .icon-graphic-design, .icon-uxdesign {
     height: 45px;
 }
+
 
 /*
 All colors used throughout the text
