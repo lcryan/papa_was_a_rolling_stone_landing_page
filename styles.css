@@ -267,6 +267,7 @@ h4 {
     color: #5722CD;
     font-family: var(--main-heading-font-family);
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -295,20 +296,23 @@ h4 {
 .web-design-block, .web-development-block, .user-experience-block {
     flex: 0 0 33.3333333333%;
     max-width: 30%;
-    margin: 10px;
+    margin: 20px;
 }
 
 
 .logo-design-block, .seo-block, .copy-writing-block {
     flex: 0 0 33.3333333333%;
     max-width: 30%;
-    margin: 10px;
+    margin: 20px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block, .logo-design-block, .seo-block, .copy-writing-block {
     border: solid 1px #5722CD;
     color: #9E9E9C;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .icon-webdesign, .icon-webdev, .icon-seo, .icon-copywriting, .icon-graphic-design, .icon-uxdesign {
@@ -338,7 +342,7 @@ Grijs #7A7A7A (voor de service-tegel tekst);
     4. Areas
         4.1 Header
         4.2 Introduction
-        etc.
+x        etc.
     5. Media Queries
 ////////////////////////*/
 
