@@ -150,7 +150,7 @@ a {
 
 .image-one, .image-two, .image-three {
     width: 100%;
-    box-shadow: 0px 9px 21px 1px rgba(204, 204, 204, 0.91);
+    box-shadow: 0 9px 21px 1px rgba(204, 204, 204, 0.91);
 }
 
 .image-wrapper {
@@ -311,7 +311,7 @@ h4 {
     border: solid 1px #5722CD;
     color: #9E9E9C;
     padding: 30px 20px 20px;
-    box-shadow: 0px 13px 15px -1px rgba(216,216,216,0.77);
+    box-shadow: 0 13px 15px -1px rgba(216,216,216,0.77);
 }
 
 .icon-webdesign, .icon-webdev, .icon-seo, .icon-copywriting, .icon-graphic-design, .icon-uxdesign {
@@ -326,12 +326,18 @@ h4 {
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-header>h1, p{
+.contact-header>h1 {
     color: #FFFFFF;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-header>h1{
@@ -340,6 +346,11 @@ h4 {
 
 .contact-header>p{
     font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 /*
 All colors used throughout the text
