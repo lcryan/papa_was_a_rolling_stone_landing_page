@@ -320,6 +320,20 @@ h4 {
     margin-top: 10px;
 }
 
+/*CODE FOR FORM*/
+
+.contact-form {
+    background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
+    rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
+    margin-top: 20px;
+}
+
+.contact-header>h1, p{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*
 All colors used throughout the text
