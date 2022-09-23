@@ -89,7 +89,6 @@ button {
     position: absolute;
     bottom: 0;
     left: calc(50% - 40px);
-    /*size 1 px biggr */
 }
 
 /* ------------------------------- 2. END HEADER -------------------------------- */
@@ -151,7 +150,7 @@ a {
 
 .image-one, .image-two, .image-three {
     width: 100%;
-    box-shadow: 0px 9px 21px 1px rgba(204, 204, 204, 0.91);
+    box-shadow: 0 9px 21px 1px rgba(204, 204, 204, 0.91);
 }
 
 .image-wrapper {
@@ -235,7 +234,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     flex-basis: 400px;
-    padding-right: 80px;
+    padding-left: 80px;
     flex-grow: 0;
     flex-shrink: 1;
 }
@@ -267,50 +266,92 @@ h4 {
     color: #5722CD;
     font-family: var(--main-heading-font-family);
     font-size: 20px;
+    margin-bottom: 20px;
 }
+
+.seo-block > h4 {
+    text-transform: uppercase;
+}
+
 
 .inner-container-services-one {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-basis: 400px;
 }
-
 
 .inner-container-services-two {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    flex-basis: 400px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block {
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 30%;
+    margin: 20px;
 }
 
 
 .logo-design-block, .seo-block, .copy-writing-block {
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 30%;
+    margin: 20px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block, .logo-design-block, .seo-block, .copy-writing-block {
     border: solid 1px #5722CD;
     color: #9E9E9C;
-    padding: 20px;
-
-
+    padding: 30px 20px 20px;
+    box-shadow: 0 13px 15px -1px rgba(216,216,216,0.77);
 }
 
 .icon-webdesign, .icon-webdev, .icon-seo, .icon-copywriting, .icon-graphic-design, .icon-uxdesign {
     height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-/*.emulated-flex-gap {*/
-/*    display: inline-flex;*/
-/*    flex-wrap: wrap;*/
-/*    margin: -12px 0 0 -12px;*/
-/*    width: calc(100% + 12px);*/
-/*}*/
+/*CODE FOR FORM*/
+
+.contact-form {
+    background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
+    rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header>h1 {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header>h1{
+    padding-top: 100px;
+}
+
+.contact-header>p{
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 /*
 All colors used throughout the text
 Paars #5722CD;
@@ -333,7 +374,7 @@ Grijs #7A7A7A (voor de service-tegel tekst);
     4. Areas
         4.1 Header
         4.2 Introduction
-        etc.
+x        etc.
     5. Media Queries
 ////////////////////////*/
 
