@@ -277,13 +277,12 @@ h4 {
 
 .inner-container-services-one {
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*flex: 0 0 100%;*/
     margin-top: 50px;
     flex-grow: 0;
     flex-shrink: 1;
     margin-left: 50px;
     margin-right: 50px;
+    flex-basis: 400px;
 }
 
 .inner-container-services-two {
@@ -295,12 +294,16 @@ h4 {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
+    flex-basis: 400px;
 }
 
 .web-design-block, .web-development-block, .user-experience-block {
     flex: 0 0 33.3333333333%;
     max-width: 30%;
     margin: 20px;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 
@@ -308,6 +311,9 @@ h4 {
     flex: 0 0 33.3333333333%;
     max-width: 30%;
     margin: 20px;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .web-design-block, .web-development-block, .user-experience-block, .logo-design-block, .seo-block, .copy-writing-block {
