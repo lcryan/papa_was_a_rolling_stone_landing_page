@@ -334,7 +334,13 @@ h4 {
     justify-content: center;
 }
 
+.contact-header>h1{
+    padding-top: 100px;
+}
 
+.contact-header>p{
+    font-size: 20px;
+}
 /*
 All colors used throughout the text
 Paars #5722CD;
