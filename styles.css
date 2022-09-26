@@ -323,7 +323,7 @@ h4 {
 
 /*CODE FOR FORM*/
 
-.contact-form{
+.contact-form {
     width: 100%;
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
@@ -336,9 +336,10 @@ h4 {
     position: relative;
 }
 
-.form-container{
+.form-container {
     width: 80%;
 }
+
 .contact-header > h1 {
     color: #FFFFFF;
     display: flex;
@@ -403,7 +404,6 @@ textarea {
     bottom: 0;
     left: calc(50% - 100px)
 }
-
 
 
 /*
