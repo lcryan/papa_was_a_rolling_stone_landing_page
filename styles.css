@@ -358,6 +358,12 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: bold;
+}
+
+.name-field, .email-field{
+    height: 60px;
+
 }
 
 textarea{
