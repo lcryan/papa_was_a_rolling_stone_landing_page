@@ -369,7 +369,8 @@ form {
     height: 60px;
     padding-left: 20px;
     margin-top: -20px;
-
+    border-radius: 5px;
+    border: none;
 }
 
 textarea {
@@ -378,6 +379,9 @@ textarea {
     padding-left: 20px;
     padding-top: 20px;
     margin-top: -20px;
+    font-family:var(--main-text-font-family);
+    border: none;
+    border-radius: 5px;
 
 }
 
