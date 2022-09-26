@@ -363,12 +363,15 @@ form{
 
 .name-field, .email-field{
     height: 60px;
+    padding-left: 20px;
 
 }
 
 textarea{
     width: 800px;
     height: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 
