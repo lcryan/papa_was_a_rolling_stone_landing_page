@@ -142,9 +142,11 @@ a {
     color: #5722CD;
 }
 
-/*STYLING SECTION PROJECTS*/
+/* ------------------------------- 3. END MAIN -------------------------------- */
 
-/*GLOBALS WITHIN PROJECTS SECTION*/
+/* ------------------------------- 4.PROJECTS -------------------------------- */
+
+
 .squiggle-line-purple {
     padding-bottom: 20px;
 }
@@ -160,7 +162,6 @@ a {
     flex-shrink: 1;
 }
 
-/*GLOBALS WITHIN PROJECTS SECTION*/
 
 .projects-container {
     background-color: #F3F6F9;
@@ -261,8 +262,6 @@ p {
     flex-shrink: 1;
 }
 
-/*STYLING SECTION PROJECTS*/
-
 h4 {
     color: #5722CD;
     font-family: var(--main-heading-font-family);
@@ -321,7 +320,9 @@ h4 {
     margin-top: 10px;
 }
 
-/*CODE FOR FORM*/
+/* ------------------------------- 4.END PROJECTS -------------------------------- */
+
+/* ------------------------------- 4.FORM -------------------------------- */
 
 .contact-form {
     width: 100%;
@@ -405,6 +406,10 @@ textarea {
     left: calc(50% - 100px)
 }
 
+/* ------------------------------- 4.END FORM -------------------------------- */
+
+/* ------------------------------- 5. FOOTER -------------------------------- */
+
 footer {
     margin-top: -10px;
     margin-left: 10px;
@@ -413,11 +418,10 @@ footer {
     font-family: var(--main-text-font-family);
     color: #FFFFFF;
     text-align: center;
-    padding-top: 40px;
-
-
+    padding-top: 10px;
 }
 
+/* ------------------------------- 5. END FOOTER -------------------------------- */
 /*
 All colors used throughout the text
 Paars #5722CD;
