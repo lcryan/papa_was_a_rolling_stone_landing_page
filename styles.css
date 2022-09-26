@@ -115,6 +115,7 @@ main {
     padding-right: 100px;
 }
 
+
 h2 {
     padding: 20px 100px 20px 100px;
 }
@@ -377,7 +378,15 @@ textarea {
 }
 
 .submit-button{
-
+    font-family: var(--main-text-font-family);
+    text-transform: uppercase;
+    background-color: #ED4385;
+    border: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px #2f4f4f;
+    width: 100px;
 }
 
 /*
