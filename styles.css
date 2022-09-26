@@ -399,12 +399,24 @@ textarea {
     border-radius: 30px;
     box-shadow: 2px 2px 10px #2f4f4f;
     margin-top: -80px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     position: absolute;
     bottom: 0;
     left: calc(50% - 100px)
 }
 
+footer {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0C0C0C;
+    font-family: var(--main-text-font-family);
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+
+
+}
 
 /*
 All colors used throughout the text
