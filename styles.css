@@ -323,7 +323,8 @@ h4 {
 
 /*CODE FOR FORM*/
 
-.contact-form {
+.contact-form{
+    width: 100%;
     background: linear-gradient(90deg, rgba(103, 86, 190, 1) 0%,
     rgba(87, 34, 205, 1) 59%, rgba(72, 47, 175, 1) 100%);
     margin-top: 20px;
@@ -333,9 +334,11 @@ h4 {
     justify-content: center;
     align-items: center;
     position: relative;
-
 }
 
+.form-container{
+    width: 80%;
+}
 .contact-header > h1 {
     color: #FFFFFF;
     display: flex;
@@ -374,7 +377,6 @@ form {
 }
 
 textarea {
-    width: 800px;
     height: 200px;
     padding-left: 20px;
     padding-top: 20px;
@@ -383,7 +385,6 @@ textarea {
     font-family: var(--main-text-font-family);
     border: none;
     border-radius: 5px;
-
 }
 
 .submit-button {
