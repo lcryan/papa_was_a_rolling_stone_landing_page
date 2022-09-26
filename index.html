@@ -26,7 +26,8 @@
     <div class="header-text">
         <h1>Your website is an investment in the success of your business.</h1>
         <p>We are here to help you succeed.</p>
-        <button type="button">Let's work together</button>
+        <label for="contact-button">Let's work together</label>
+        <input type="button" name="contact-button" id="contact-button"/>
     </div>
     <div class="squiggly-line-image">
         <img src="/assets/squiggle_line_stripe.svg" alt="white wavy designed lined">
@@ -164,11 +165,13 @@
         <div class="form-container">
             <form>
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Name"><br>
+                <input type="text" id="name" name="name" class="name-field" placeholder="Name"><br>
                 <label for="email">Email</label><br>
-                <input type="text" id="email" name="email" placeholder="Email"><br>
+                <input type="text" id="email" name="email" class="email-field" placeholder="Email"><br>
                 <label for="textarea">Message</label><br>
                 <textarea id="textarea" name="textarea" placeholder="Message"></textarea>
+                <label for="submit-button">Send</label>
+                <input type="button" id="submit-button" name="submit-button" class="submit-button">
             </form>
         </div>
     </section>
